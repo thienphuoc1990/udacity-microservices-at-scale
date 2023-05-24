@@ -1,1 +1,8 @@
-<paste log output from Kubernetes-mediated prediction, here>
+(.devops) phuoc@DESKTOP-7U6CSCD:~/projects/containerize/udacity-microservices-at-scale$ ./run_kubernetes.sh
+Error from server (AlreadyExists): pods "udacity-microservices-at-scale" already exists
+NAME                             READY   STATUS    RESTARTS   AGE
+udacity-microservices-at-scale   1/1     Running   0          18s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+Handling connection for 8000

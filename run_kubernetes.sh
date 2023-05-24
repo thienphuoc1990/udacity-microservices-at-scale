@@ -4,15 +4,16 @@
 
 # Step 1:
 # This is your Docker ID/path
-# dockerpath=<>
+dockerpath=thienphuoc1990/udacity-microservices-at-scale
 
 # Step 2
 # Run the Docker Hub container with kubernetes
-
+kubectl run udacity-microservices-at-scale --image $dockerpath
 
 # Step 3:
 # List kubernetes pods
+kubectl get pods
 
 # Step 4:
 # Forward the container port to a host
-
+kubectl port-forward udacity-microservices-at-scale 8000:80
